@@ -10,14 +10,15 @@
   --text-color: #F1B2CE;
   --heading-text-color: #DB00FF;
   --title-color: #000028;
-  
+
   --main-font-family: 'IBM Plex mono';
   --heading-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --main-text-size: 18px;
-  --h3-font-size: 18px;
-  --h4-font-size: 18px;
-  --h5-font-size: 18px;
-  
+
+  --page-gap: 10px;
+  --main-gap: 40px;
+  --section-gap: 50px;
+  --title-gap: 20px;
 }
 
 @media (width >= 768px) {
