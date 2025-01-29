@@ -19,6 +19,8 @@
   --main-gap: 40px;
   --section-gap: 50px;
   --title-gap: 20px;
+
+  --footer-padding: 285px;
 }
 
 @media (width >= 768px) {
