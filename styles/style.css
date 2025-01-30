@@ -26,6 +26,7 @@
 .header {
   display: grid;
   block-size: 100vh;
+  min-block-size: 668px;
   grid-template-rows: 1fr min-content 1fr;
   position: relative;
   padding: var(--page-gap);
@@ -110,6 +111,7 @@
 }
 
 .header__theme-menu-button:hover {
+  cursor: pointer;
   outline: 1px solid color-mix(in srgb, var(--heading-color) 40%, transparent);
 }
 
@@ -193,6 +195,7 @@
   block-size: 100%;
   max-block-size: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 /* Footer */
@@ -200,6 +203,7 @@
 .footer {
   position: relative;
   block-size: 100vh;
+  min-block-size: 668px;
   display: grid;
   justify-items: center;
 }
