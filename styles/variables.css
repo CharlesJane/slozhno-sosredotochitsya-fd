@@ -17,11 +17,9 @@
   --main-text-size: 18px;
 
   --page-gap: 10px;
-  --main-gap: 2.8em;;
+  --main-gap: 2.2em;
   --section-gap: 2.75em;
   --title-gap: 20px;
-
-  --footer-padding: 277px 0 274px;
 }
 
 @media (width >= 768px) {
@@ -29,15 +27,7 @@
     --heading-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 
     --page-gap: 20px;
-    --main-gap: 4.46em;
-    --section-gap: 4.4em;
-
-    --footer-padding: 444px 0 441px;
-  }
-}
-
-@media (width >= 1024px) {
-  :root {
-    --footer-padding: 300px 0 299px;
+    --main-gap: 3.3em;
+    --section-gap: 4.44em;
   }
 }
