@@ -9,12 +9,12 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --bg-color: #FFF1F7;
+  --bg-color: #fff1f7;
   --bg-image: url(../images/cover-image-light.png);
-  --accent-color: #FF8DCB;
+  --accent-color: #ff8dcb;
 
   --text-color: #353430;
-  --main-heading-color: #FFC2E6;
+  --main-heading-color: #ffc2e6;
   --heading-color: #353430;
   --title-color: #353430;
 }
@@ -25,12 +25,12 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg-color: #FFF1F7;
+    --bg-color: #fff1f7;
     --bg-image: url(../images/cover-image-light.png);
-    --accent-color: #FF8DCB;
-  
+    --accent-color: #ff8dcb;
+
     --text-color: #353430;
-    --main-heading-color: #FFC2E6;
+    --main-heading-color: #ffc2e6;
     --heading-color: #353430;
     --title-color: #353430;
   }
@@ -38,4 +38,4 @@
   .theme-auto .header__decor {
     display: none;
   }
-} 
+}

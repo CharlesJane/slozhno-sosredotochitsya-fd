@@ -5,23 +5,23 @@
 :root {
   --bg-color: #000028;
   --bg-image: url(../images/cover-image-dark.png);
-  --accent-color: #FF0070;
+  --accent-color: #ff0070;
 
-  --text-color: #F1B2CE;
-  --main-heading-color: #DB00FF;
-  --heading-color: #FF0070;
+  --text-color: #f1b2ce;
+  --main-heading-color: #db00ff;
+  --heading-color: #ff0070;
   --title-color: #000028;
 
-  --main-font-family: 'IBM Plex mono';
+  --main-font-family: "IBM Plex mono";
   --heading-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --main-text-size: 18px;
 
   --page-gap: 10px;
-  --main-gap: 40px;
-  --section-gap: 50px;
+  --main-gap: 2.8em;;
+  --section-gap: 2.75em;
   --title-gap: 20px;
 
-  --footer-padding: 285px;
+  --footer-padding: 277px 0 274px;
 }
 
 @media (width >= 768px) {
@@ -29,16 +29,15 @@
     --heading-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 
     --page-gap: 20px;
-    --main-gap: 60px;
-    --section-gap: 80px;
+    --main-gap: 4.46em;
+    --section-gap: 4.4em;
 
-    --footer-padding: 462px;
+    --footer-padding: 444px 0 441px;
   }
-
 }
 
 @media (width >= 1024px) {
   :root {
-    --footer-padding: 319px;
+    --footer-padding: 300px 0 299px;
   }
 }
